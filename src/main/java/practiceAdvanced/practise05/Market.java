@@ -7,15 +7,17 @@ public class Market {
     double urunFiyati;
     String sonKullanmaTarihi;
 
-    Market(String urunIsmi, double fiyat, int aySonra){
+    Market(String urunIsmi, double fiyat, int aySonra) {
 
         urunAdi = urunIsmi;
+
         urunFiyati = fiyat;
+
         sonKullanmaTarihi = LocalDate.now().plusMonths(aySonra).toString();
 
     }
 
-    Market(String urunIsmi, double fiyat){
+    Market(String urunIsmi, double fiyat) {
 
         urunAdi = urunIsmi;
         urunFiyati = fiyat;

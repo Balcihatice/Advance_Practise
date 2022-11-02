@@ -1,6 +1,6 @@
 package practiceAdvanced.practise05;
 
-public class Q04_varargs_HesapMakinesi {
+public class Q04_Varargs_HesapMakinesi {
     /*
     //Temel 4 matematik işlemi yapan bir kod yazınız.
      */

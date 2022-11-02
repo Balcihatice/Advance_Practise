@@ -19,7 +19,9 @@ public class HesapMakinesi {
 
     public void carpma(int... a) {
         int carpim = 1;
+
         for (int w : a) {
+
             carpim *= w;
         }
         System.out.println("Carpim: " + carpim);
@@ -28,6 +30,7 @@ public class HesapMakinesi {
 
 
     public void bolme(double a, double b){
+
         System.out.println("Bolum :"+ a/b);
     }
 }

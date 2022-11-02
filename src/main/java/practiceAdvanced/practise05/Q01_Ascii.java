@@ -7,8 +7,10 @@ public class Q01_Ascii {
     //Kullanıcıdan aldığınız iki karakterin arasında bulunan tüm karakterleri yazdıran bir kod yazınız.
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.println("iki karakter gir");
+
         char ch1 = input.next().charAt(0);
         char ch2 = input.next().charAt(0);
 

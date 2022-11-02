@@ -11,6 +11,7 @@ public class Q04_Kutuphane {
         kitap.kitapBilgileri();
 
         System.out.println("-----<<>>-----");
+
         Kitap kitap2 = new Kitap("Vadideki Zambak", "Honore de Balzac", 500);
         kitap2.kitapBilgileri();
 

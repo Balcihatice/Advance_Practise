@@ -18,10 +18,13 @@ public class Q02_NestedFoor_Ucgen {
         int satir = input.nextInt();
 
         for (int i = 0; i < satir; i++) { //satir kontolu
+
             for (int bosluk = satir-i ; bosluk >1 ; bosluk--) {// en son satirda space yok 1 de durduk
+
                 System.out.print(" ");
             }
             for (int yildiz = 0; yildiz <= i; yildiz++) {
+
                 System.out.print("* ");
             }
             System.out.println();

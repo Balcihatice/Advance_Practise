@@ -25,6 +25,7 @@ Output:
 
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Bir sayi giriniz");
 
         int sayi = input.nextInt();
@@ -33,7 +34,6 @@ Output:
         for(int i = 1; i<sayi; i++) {
 
             for (int k = 1; k < sayi; k++) {
-
 
                 System.out.print((int)(Math.random()*2));
             }

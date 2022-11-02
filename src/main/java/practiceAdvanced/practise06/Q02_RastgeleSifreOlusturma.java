@@ -20,10 +20,13 @@ public class Q02_RastgeleSifreOlusturma {
 
 
         String sifre = "";
+
         while (sayac < karakterSayisi) {
+
             int rastgeleIndex = (int) (Math.random() * maxIndex);
 
             sifre += karakterler.charAt(rastgeleIndex);
+
             sayac++;
         }
         System.out.println(sifre);
