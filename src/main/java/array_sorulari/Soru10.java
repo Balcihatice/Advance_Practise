@@ -7,15 +7,9 @@ public class Soru10 {
        /*
 
 iki ayrı int array oluşturun. İkisinin de eleman sayısı  5 olsun.
-
 Elemanlar .random atansın. (15 e kadar - 15 dahil)
-
-
 2 int array'i de ekrana yazdırınız.  (1.dizi =
                                                         2.dizi=        )
-
-
-
 Eğer iki arrayda ortak elemanlar varsa o elemanları yazdırınız.
 Yoksa, "ortak eleman yoktur" mesajını konsola yazdırınız.
 
@@ -49,22 +43,22 @@ Eğer ortak eleman yoksa, count==0 ise           "ortak eleman yoktur".
         dizi2[i] = (int) (Math.random() * 15 + 1);
     }
 
-        System.out.println("\n  2. Dizi  :" + Arrays.toString(dizi2));
+        System.out.println("2. Dizi  :" + Arrays.toString(dizi2));
 
     int count = 0;
         for (int i = 0; i < dizi.length; i++) {
 
-        for (int j = 0; j < dizi.length; j++) {
+        for (int j = 0; j < dizi2.length; j++) {
 
             if (dizi[i] == dizi2[j]) {
-                System.out.print("ortak eleman:" + dizi[i] + "   ");
+                System.out.print("\nortak eleman:" + dizi[i] + "   ");
                 count++;
             }
         }
 
     }
         if (count == 0) {
-        System.out.println("ortak elemen yoktur");
+        System.out.println("ortak eleman yoktur");
     }
 
 }

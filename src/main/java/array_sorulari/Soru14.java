@@ -28,8 +28,11 @@ public class Soru14 {
         int max =input [0][0];
 
         for (int kat = 0; kat < input.length; kat++) {
+
             for (int daire= 0; daire < input[kat].length; daire++) {
+
                 if (input [kat][daire]> max) {
+
                     max =input [kat][daire];
                 }
             }
