@@ -18,8 +18,11 @@ public class Q03_AtbashCode {
         System.out.println("Kelime girin");
 
         String str1 = "abcdefghijklmnopqrstuvwxyz";
+
         String str2 = "zyxwvutsrqponmlkjihgfedcba";
+
         String str3 = input.nextLine().toLowerCase();
+
         //str1 in indekindeki harf str2 deki indexte karsiligi ne ise onu alacagiz
 
         for (int i = 0; i < str3.length(); i++) {

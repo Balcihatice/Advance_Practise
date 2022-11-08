@@ -16,6 +16,7 @@ public class Q02_UzunKelime {
     public static List<String> enUzunKelime( ) { //Kullanicidan str aldigimiz icin Parametre girmedik
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Kelime girin");
 
         String str = input.nextLine();

@@ -27,6 +27,7 @@ public class Q01_ArrayToStringNegative {
         System.out.println(str);
 
         str = str.replaceAll("Is", "isNOT");
+
         System.out.println(str);
 
     }
