@@ -12,16 +12,27 @@ public class Q04_Exception_Throws {
    ("Sayı 12'den küçük ise hata verir") yazdırın.
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-
+        randomSayi();
 
 
     }
 
-    public static void randomSayi(int random1, int random2){
-        int sayi1= (int) (Math.random()*10);
-        int sayi2= (int) (Math.random()*10);
+    public static void randomSayi() throws Exception {
+
+        int a = (int) (Math.random() * 11);
+
+        int b = (int) (Math.random() * 11);
+
+        System.out.println(a+"--"+b);
+
+        System.out.println(a + b);
+
+        if (a+b<12){
+
+            throw new Exception("Sayı 12'den küçük ise hata verir");
+        }
 
     }
 
