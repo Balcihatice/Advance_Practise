@@ -39,10 +39,10 @@ public class Q06_KelimeleriSay {
             } else {
                 map.put(w, map.get(w) + 1);
             }
-            System.out.println(map);
+
         }
 
-
+        System.out.println(map);
     }
 
 }
